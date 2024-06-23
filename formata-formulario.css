@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+ font-family: Akshar;
+ margin: 0; 
+}
+
+h1 {
+ text-align: center;
+ border-bottom: 1px solid #fff;
+ background: #ccc;
+ box-shadow: 0 0 5px 5px  #0f083b;
+ text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+ margin: 0;
+}
+
+label.alinha {
+ width: 180px;
+ display: inline-block;
+ margin-bottom: 15px;
+}
+
+input[name*="fabric"] {
+ width: 300px;
+}
+
+input, button {
+ font-family: "Yanone Kaffeesatz";
+ font-size: 16px;
+}
+
+fieldset {
+ width: 50%;
+ margin: 30px auto;
+ padding: 20px;
+ border-radius: 10px;
+ background-image: url(carro.png);
+ background-size: 25% 45%;
+ background-repeat: no-repeat;
+ background-position: right top;
+ box-shadow: 5px 5px 5px #0f083b;
+}
+
+
+button {
+ font-weight: bold;
+ font-style: italic;
+ font-size: 22px;
+ display: block;
+ height: 50px;
+ margin: 20px auto;
+}
+
+ p {
+  width: 50%;
+  border: 1px solid #0f083b;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+ }
+
+ table {
+  width: 50%;
+  border: 1px solid #0f083b;
+  border-radius: 5px;
+  background: rgba(133, 125, 177, 0.5);
+  margin: 30px auto;
+ }
+
+ th, td {
+  border: 1px solid #0f083b;
+  border-radius: 5px;
+ }
+
+ th {
+  background: #0f083b;
+  color: #fff;
+ }
+
+ td {
+  text-align: center;
+  background: #fff;
+ }
+
+ span {
+  color: #0f083b;
+  font-weight: bold;
+  font-style: italic;
+ }
+
+
